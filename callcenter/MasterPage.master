@@ -1,0 +1,53 @@
+﻿<%@ master language="C#" autoeventwireup="true" inherits="MasterPage, App_Web_pnzdaotw" %>
+
+
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server" lang="en">
+    <title>Call Center</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+
+
+
+</head>
+<body>
+    
+    <form id="form1" runat="server">
+<header>
+    <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="home.aspx">Call Center</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="active"><a href="#">Hello
+          <asp:LoginName ID="LoginName1" runat="server" Font-Bold="true" />
+                         </a></li>
+        <li><asp:LinkButton id="logout" Text="Logout" OnClick="logout_Click" runat="server"/></li>
+      
+    </ul>
+  </div>
+</nav>
+</header>
+        <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+         
+    </form>
+
+    
+     <script src='<%=ResolveClientUrl("~/js/jquery.min.js") %>' 
+type="text/javascript"></script>
+   <script src='<%=ResolveClientUrl("~/js/bootstrap.js") %>' 
+type="text/javascript"></script>
+
+</body>
+</html>

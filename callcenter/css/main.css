@@ -1,0 +1,193 @@
+﻿@import "bourbon";
+
+body {
+	background: #eee !important;	
+}
+
+.wrapper {	
+	margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+
+.form-signin {
+    max-width: 380px;
+    padding: 15px 35px 45px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+  .form-signin-heading,
+	.checkbox {
+	  margin-bottom: 30px;
+
+	}
+
+.detailabox {
+    position:relative;
+    top:-14em;
+    left:15em;
+}
+
+.quantity {
+
+    position:relative;
+    top:-20em;
+    right:-30em;
+    
+}
+
+.optionbox {
+    position:relative;
+    top:-22em;
+    left:30em;
+
+}
+
+.instructbox {
+    position:relative;
+    top:-15em;
+    left:40em;
+}
+
+.instructtext {
+
+    position:relative;
+    font-size:large;
+    padding-bottom:1em;
+    padding-top:1.5em;
+    padding-left:2em;
+    padding-right:2.5em;
+}
+.shortbox {
+    width:60px;
+    height:30px;
+    font-size:larger;
+    padding-left:1.15em;
+}
+
+.unit {
+    position:relative;
+    top:-21em;
+    left:33em;
+}
+
+.itemlist {
+    position:relative;
+    top:-7em;
+}
+.link {
+    position:relative;
+    top:-10em;
+    left:68em;
+}
+
+.bigbutton {
+    position:relative;
+    left:55em;
+    top:-22em;
+    width:60px;
+    height:40px;
+}
+
+.smalltxt {
+    width:50px;
+}
+
+	.checkbox {
+	  font-weight: normal;
+      position:relative;
+      left:1.5em;
+	}
+
+	.form-control {
+	  position: relative;
+	  font-size: 16px;
+	  height: auto;
+	  padding: 10px;
+		
+	}
+
+	input[type="text"] {
+	  margin-bottom: -1px;
+	  border-bottom-left-radius: 0;
+	  border-bottom-right-radius: 0;
+	}
+
+	input[type="password"] {
+	  margin-bottom: 20px;
+	  border-top-left-radius: 0;
+	  border-top-right-radius: 0;
+	}
+
+.myListBox
+{
+    border-style:none;
+    border-width:0px;
+    border: none;
+    font-size:12pt;
+    font-family:Verdana;
+}
+    
+    .myListBox option {
+   
+}
+    /* Style the tab */
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.alt2 { background: #fcfcfc url(grd_alt.png) repeat-x top; }
+.Grid {background-color: #fff; margin: 5px 0 10px 0; border: solid 1px #525252; border-collapse:collapse; font-family:Calibri; color: #474747;}
+.Grid td {
+      padding: 2px;
+      border: solid 1px #c1c1c1; }
+.Grid th  {
+      padding : 4px 2px;
+      color: #fff;
+      background: #363670  repeat-x top;
+      border-left: solid 1px #525252;
+      font-size: 0.9em; }
+.Grid .alt {
+      background: #fcfcfc  repeat-x top; }
+.Grid .pgr {background: #363670  repeat-x top; }
+.Grid .pgr table { margin: 3px 0; }
+.Grid .pgr td { border-width: 0; padding: 0 6px; border-left: solid 1px #666; font-weight: bold; color: #fff; line-height: 12px; }  
+.Grid .pgr a { color: Gray; text-decoration: none; }
+.Grid .pgr a:hover { color: #000; text-decoration: none; }
+
+
+
+
+.bv-form .help-block{margin-bottom:0}.bv-form .tooltip-inner{text-align:left}.nav-tabs li.bv-tab-success>a{color:#3c763d}.nav-tabs li.bv-tab-error>a{color:#a94442}
